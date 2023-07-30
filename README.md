@@ -26,7 +26,7 @@ To install MagicInpaint for CPU:
 pip install magicinpaint-cpu
 ```
 <p>:warning:<b>Please Note: </b>
-<br>For the GPU version to work you need to have NVIDIA GPU card and correctly installed CUDA driver (GTX or RTX)!</p> 
+<br>For the GPU version to work you need NVIDIA GPU card and correctly installed CUDA driver (GTX or RTX)!</p> 
 
 
 
