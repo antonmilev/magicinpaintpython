@@ -100,7 +100,7 @@ out_path = 'results_mi/cloth1_inpaint_mi_GPUfast_r10.png'
 mi.inpaint_file(img_path, mask_path, out_path, 30, mi.InpaintGPUfast, verbose = True) 
 ```
 
-Desription of the function arguments:
+Description of the function arguments:
 <ul>
   <li><b>image_file</b> - path to color image file, supported formats JPG,BMP,PNG</li>
   <li><b>mask_file</b> - path to mask black-white image file, 0-valid pixels, 255- noise pixels to remove</li> 
@@ -111,7 +111,7 @@ Desription of the function arguments:
   <li><b>verbose</b> - print details, by default is <b>False</b></li>
 </ul> 
 
-Function outputs <b>True</b> if sucessful, otherwise <b>False</b>. The smae
+Function outputs <b>True</b> if sucessful, otherwise <b>False</b>. 
 
 ## Inpaint with OpenCV
 To use OpenCV inpaint see https://docs.opencv.org/3.4/df/d3d/tutorial_py_inpainting.html:
